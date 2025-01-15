@@ -22,6 +22,7 @@ export class AppComponent {
   }[]
 
   onCalculateInvestmentResults(data: InvetmentInput) {
+    
     const {initialInvestment, annualInvestment, expectedReturn, duration} = data;
     const annualData = [];
     let investmentValue = initialInvestment;
